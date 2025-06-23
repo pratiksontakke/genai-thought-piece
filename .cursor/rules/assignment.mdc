@@ -1,0 +1,63 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## ✅ Task Overview
+
+Create a public post in one of the following formats:
+
+- **Twitter/X Thread** (8–12 tweets, with hook, light emoji, CTA)
+- **Blog Post in Markdown** (~600 words, sub-headings, 1 diagram or code block)
+- **Medium Article** (800–1000 words, cover image, 3 boxed takeaways)
+
+Your topic can be one of:
+
+- Why Tokenisation Is the Hidden Engine of LLMs  
+- Hallucinations: Bug or Feature?  
+- What a One-Neuron Perceptron Taught Me About Gradient Descent
+
+## 📁 Submission Format
+
+- Place your file in: `q4/` folder  
+- File name must be: `my_post.md` **or** `my_post.pdf` **or** `my_post.png`  
+- Make sure the GitHub repository is **public**
+
+## 📌 General Guidelines
+
+- Use Python ≥ 3.10
+- Use `matplotlib` (no `seaborn`)
+- Include a `requirements.txt` with all dependencies
+- Cite any LLM help (e.g., "ChatGPT suggested lowering LR")
+- No plagiarism – show your **own** code and reflections
+- Add code blocks and diagrams if needed (for blog or Medium)
+
+## 🧠 Sample Structure for Blog Post (`my_post.md`)
+
+```markdown
+# What a One-Neuron Perceptron Taught Me About Gradient Descent
+
+## Introduction  
+How can a single neuron teach you everything about optimization? Here's what I learned by implementing a perceptron from scratch.
+
+## Building the Model  
+*Brief description of dataset, logic, code, and training method.*
+
+```python
+# Code snippet here
+```
+
+## Results & Visualization
+
+*Loss/accuracy plots*
+
+## Reflection
+
+At first, predictions were random. But by tweaking the learning rate and training over 1000 epochs...
+
+> 🧠 Insight: Gradient descent isn't just about the math – it's about tuning, testing, and trust.
+
+## Conclusion
+
+Even a simple model can teach complex lessons.
+``` 
